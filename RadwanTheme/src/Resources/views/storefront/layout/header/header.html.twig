@@ -1,0 +1,10 @@
+{% sw_extends '@Storefront/storefront/layout/header/header.html.twig' %}
+{# Hier habe ich mit absicht layout_header_navigation gelöscht und layout_top_bar gelassen damit das ganze wie in xadobe design aussieht #}
+{% block layout_header %}
+    {% block layout_top_bar %}
+        {{parent()}}
+    {% endblock %}
+
+    {% block layout_header_navigation %}
+    {% endblock %}
+{% endblock %}

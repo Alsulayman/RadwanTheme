@@ -1,0 +1,21 @@
+.container {
+  margin-bottom: 3vh;
+  .top-bar.d-none.d-lg-block {
+    background-color: $bg-color;
+    box-shadow: $box-shadow;
+
+    .top-bar-nav {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-around;
+      a {
+        color: $text-color;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: $hover-underline;
+        }
+      }
+    }
+  }
+}

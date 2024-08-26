@@ -1,0 +1,10 @@
+{% sw_extends '@Storefront/storefront/base.html.twig' %}
+
+
+{% block base_body %}
+{{ parent() }}
+{% block base_head %}
+    {% sw_include '@Storefront/storefront/layout/meta.html.twig' %}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+{% endblock %}
+{% endblock %}

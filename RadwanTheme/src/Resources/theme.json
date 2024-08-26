@@ -1,0 +1,58 @@
+{
+  "name": "RadwanTheme",
+  "author": "Shopware AG",
+  "views": [
+    "@Storefront",
+    "@Plugins",
+    "@RadwanTheme"
+  ],
+  "style": [
+    "app/storefront/src/scss/overrides.scss",
+    "@Storefront",
+    "app/storefront/src/scss/base.scss"
+  ],
+  "script": [
+    "@Storefront",
+    "app/storefront/dist/storefront/js/radwan-theme/radwan-theme.js"
+  ],
+  "asset": [
+    "@Storefront",
+    "app/storefront/src/assets"
+  ],
+  "config": {
+    "fields": {
+      "sw-font-family-base": {
+        "label": {
+          "en-GB": "Base Font Family",
+          "de-DE": "Grundschriftart"
+        },
+        "type": "text",
+        "value": "'Open Sans', sans-serif"
+      },
+      "sw-color-text-base": {
+        "label": {
+          "en-GB": "Text Color",
+          "de-DE": "Textfarbe"
+        },
+        "type": "color",
+        "value": "#2b3136"
+      },
+      "sw-font-family-headline": {
+        "label": {
+          "en-GB": "Headline Font Family",
+          "de-DE": "Überschrift-Schriftart"
+        },
+        "type": "text",
+        "value": "'Inter', sans-serif"
+      },
+      "sw-color-text-headline": {
+        "label": {
+          "en-GB": "Headline Color",
+          "de-DE": "Überschriftfarbe"
+        },
+        "type": "color",
+        "value": "#2b3136"
+      }
+    }
+  }
+}
